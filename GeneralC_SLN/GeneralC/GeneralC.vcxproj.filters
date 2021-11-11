@@ -26,5 +26,8 @@
     <ClInclude Include="InsertionSort.h">
       <Filter>Source Files\Sorting Algorithms</Filter>
     </ClInclude>
+    <ClInclude Include="GCL.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

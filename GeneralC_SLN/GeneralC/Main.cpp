@@ -6,11 +6,11 @@
 int main() {
 
 
-	int arr[10] = { 3,4,2,6,4,8,2,2,6,5 };
+	int arr[10] = { 1,4,2,6,4,8,2,2,6,5 };
 	int arrSize = sizeof(arr) / sizeof(arr[0]);
-	insertionSort(arr, arrSize);
+	gcl::insertionSort(arr, arrSize);
 
-	printInsertionSortResults(arr, arrSize);
+	gcl::printArray(arr, arrSize);
 
 	int a;
 
